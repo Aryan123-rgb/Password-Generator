@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d15a4f9d20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h2>Password Generator</h2>
+            <div class="box">
+                <div class="input-box" style="display: flex;">
+                    <input type="text" id="pass-show">
+                    <p><i class="fa-sharp fa-regular fa-clipboard"></i></p>
+                </div>
+                <div class="pass-indicator"></div>
+                <div class="pass-length">
+                    <div class="details" style="display: flex; justify-content: space-between;">
+                        <label for="" class="title">Password Length</label>
+                        <p></p>
+                    </div>
+                    <input type="range" min="1" max="22" step="1">
+                </div>
+                <div class="pass-settings">
+                    <label for="" class="title">Password Settings</label>
+                    <ul class="options">
+                        <li class="option a1">
+                            
+                            <label for="">Lowecase(a-z)</label>
+                            <input type="checkbox" id="lowercase" class="checkbox" checked>
+                        </li>
+                        <li class="option a2">
+                            
+                            <label for="">Uppercase(A-Z)</label>
+                            <input type="checkbox" id="uppercase" class="checkbox">
+                        </li>
+                        <li class="option a3">
+                            
+                            <label for="">Numbers(0-9)</label>
+                            <input type="checkbox" id="numbers" class="checkbox">
+                        </li>
+                        <li class="option a4">
+                            
+                            <label for="">Symbols</label>
+                            <input type="checkbox" id="symbols" class="checkbox">
+                        </li>
+                        <li class="option a5">
+                            
+                            <label for="">Remove Duplicates</label>
+                            <input type="checkbox" id="operations" class="checkbox">
+                        </li>
+                        <li class="option a5">
+                            
+                            <label for="">Include Spaces</label>
+                            <input type="checkbox" id="spaces" class="checkbox">
+                        </li>
+                    </ul>
+                </div>
+                <button id="generate-btn">Password Generator</button>
+            </div>
+        </div>
+        <span>
+
+        </span>
+        <span></span>
+        <span></span>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
