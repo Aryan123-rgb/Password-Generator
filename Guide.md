@@ -1,1 +1,1 @@
-This is a simple youtube clone 
+Initiated a new repository
